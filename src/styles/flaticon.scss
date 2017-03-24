@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi-inset,
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  margin-right: 1em;
+    }
+
+.flaticon-close:before { content: "\f100"; }
+.flaticon-arrows-2:before { content: "\f101"; }
+.flaticon-arrows-1:before { content: "\f102"; }
+.flaticon-arrows:before { content: "\f103"; }
+.flaticon-left-chevron-1:before { content: "\f104"; }
+.flaticon-right-chevron-1:before { content: "\f105"; }
+.flaticon-up-chevron-1:before { content: "\f106"; }
+.flaticon-down-chevron-1:before { content: "\f107"; }
+.flaticon-left-chevron:before { content: "\f108"; }
+.flaticon-right-chevron:before { content: "\f109"; }
+.flaticon-up-chevron:before { content: "\f10a"; }
+.flaticon-down-chevron:before { content: "\f10b"; }
+.flaticon-technology:before { content: "\f10c"; }
+.flaticon-tool-1:before { content: "\f10d"; }
+.flaticon-education-diploma:before { content: "\f10e"; }
+.flaticon-badge-with-a-star:before { content: "\f10f"; }
+.flaticon-group:before { content: "\f110"; }
+.flaticon-placeholder-for-map:before { content: "\f111"; }
+.flaticon-graduation-hat-front-view:before { content: "\f112"; }
+.flaticon-paint-palette-and-brush:before { content: "\f113"; }
+.flaticon-social-2:before { content: "\f114"; }
+.flaticon-tool:before { content: "\f115"; }
+.flaticon-moustache:before { content: "\f116"; }
+.flaticon-school-set-square:before { content: "\f117"; }
+.flaticon-identity-card:before { content: "\f118"; }
+.flaticon-shape:before { content: "\f119"; }
+.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f11a"; }
+.flaticon-tool-2:before { content: "\f11b"; }
+.flaticon-gmail-envelope:before { content: "\f11c"; }
+.flaticon-close-envelope:before { content: "\f11d"; }
+.flaticon-telephone:before { content: "\f11e"; }
+.flaticon-shapes:before { content: "\f11f"; }
+.flaticon-bookmark:before { content: "\f120"; }
+.flaticon-silhouette:before { content: "\f121"; }
+.flaticon-social-1:before { content: "\f122"; }
+.flaticon-photo-of-a-landscape:before { content: "\f123"; }
+.flaticon-social:before { content: "\f124"; }
+.flaticon-connection:before { content: "\f125"; }
+.flaticon-dribbble:before { content: "\f126"; }
+.flaticon-github-character:before { content: "\f127"; }
+.flaticon-lastfm:before { content: "\f128"; }
+.flaticon-behance:before { content: "\f129"; }
+.flaticon-skype:before { content: "\f12a"; }
+.flaticon-google-plus:before { content: "\f12b"; }
+.flaticon-linkedin:before { content: "\f12c"; }
+.flaticon-instagram:before { content: "\f12d"; }
+.flaticon-twitter:before { content: "\f12e"; }
+.flaticon-pinterest:before { content: "\f12f"; }
+.flaticon-vk:before { content: "\f130"; }
+.flaticon-facebook:before { content: "\f131"; }
+
+    $font-Flaticon-close: "\f100";
+    $font-Flaticon-arrows-2: "\f101";
+    $font-Flaticon-arrows-1: "\f102";
+    $font-Flaticon-arrows: "\f103";
+    $font-Flaticon-left-chevron-1: "\f104";
+    $font-Flaticon-right-chevron-1: "\f105";
+    $font-Flaticon-up-chevron-1: "\f106";
+    $font-Flaticon-down-chevron-1: "\f107";
+    $font-Flaticon-left-chevron: "\f108";
+    $font-Flaticon-right-chevron: "\f109";
+    $font-Flaticon-up-chevron: "\f10a";
+    $font-Flaticon-down-chevron: "\f10b";
+    $font-Flaticon-technology: "\f10c";
+    $font-Flaticon-tool-1: "\f10d";
+    $font-Flaticon-education-diploma: "\f10e";
+    $font-Flaticon-badge-with-a-star: "\f10f";
+    $font-Flaticon-group: "\f110";
+    $font-Flaticon-placeholder-for-map: "\f111";
+    $font-Flaticon-graduation-hat-front-view: "\f112";
+    $font-Flaticon-paint-palette-and-brush: "\f113";
+    $font-Flaticon-social-2: "\f114";
+    $font-Flaticon-tool: "\f115";
+    $font-Flaticon-moustache: "\f116";
+    $font-Flaticon-school-set-square: "\f117";
+    $font-Flaticon-identity-card: "\f118";
+    $font-Flaticon-shape: "\f119";
+    $font-Flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view: "\f11a";
+    $font-Flaticon-tool-2: "\f11b";
+    $font-Flaticon-gmail-envelope: "\f11c";
+    $font-Flaticon-close-envelope: "\f11d";
+    $font-Flaticon-telephone: "\f11e";
+    $font-Flaticon-shapes: "\f11f";
+    $font-Flaticon-bookmark: "\f120";
+    $font-Flaticon-silhouette: "\f121";
+    $font-Flaticon-social-1: "\f122";
+    $font-Flaticon-photo-of-a-landscape: "\f123";
+    $font-Flaticon-social: "\f124";
+    $font-Flaticon-connection: "\f125";
+    $font-Flaticon-dribbble: "\f126";
+    $font-Flaticon-github-character: "\f127";
+    $font-Flaticon-lastfm: "\f128";
+    $font-Flaticon-behance: "\f129";
+    $font-Flaticon-skype: "\f12a";
+    $font-Flaticon-google-plus: "\f12b";
+    $font-Flaticon-linkedin: "\f12c";
+    $font-Flaticon-instagram: "\f12d";
+    $font-Flaticon-twitter: "\f12e";
+    $font-Flaticon-pinterest: "\f12f";
+    $font-Flaticon-vk: "\f130";
+    $font-Flaticon-facebook: "\f131";
